@@ -36,6 +36,8 @@ assert(coincide(q3_2, q4_1)).
 assert(coincide(q4_2, q1_1)).
 assert(more(q2, q1)).
 assert(flagbase(fb, q1, q2, q3, q4)).
+
+
 assert(segment(w1, w1_1, w1_2)).
 assert(segment(w2, w2_1, w2_2)).
 assert(segment(w3, w3_1, w3_2)).
