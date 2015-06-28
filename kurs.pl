@@ -1,3 +1,43 @@
+# 1. wall
+
+
+assert(segment(o1, o1_1, o1_2)).
+assert(segment(o2, o2_1, o2_2)).
+assert(segment(o3, o3_1, o3_2)).
+assert(segment(o4, o4_1, o4_2)).
+assert(segment(o5, o5_1, o5_2))
+assert(perpendicular(o1, o2)).
+assert(perpendicular(o2, o3)).
+assert(perpendicular(o3, o4)).
+assert(coincide(o1_2, o2_1)).
+assert(coincide(o2_2, o3_1)).
+assert(coincide(o3_2, o4_1)).
+assert(coincide(o4_2, o1_1)).
+assert(more(o2, o1)).
+assert(contains(o4, o5_1)).
+assert(contains(o4, o5_2)).
+assert(wall(w, o1, o2, o3, o4, o5)).
+
+
+
+
+
+
+
+
+
+
+# etc
+
+
+
+
+
+
+
+
+
+
 assert(segment(t1, t1_1, t1_2)).
 assert(segment(t2, t2_1, t2_2)).
 assert(segment(t3, t3_1, t3_2)).
